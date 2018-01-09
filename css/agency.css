@@ -13,7 +13,7 @@ p {
 a {
   color: royalblue; }
   a:hover {
-    color: #fec503; }
+    color: white; }
 
 .text-primary {
   color: royalblue !important; }
@@ -95,7 +95,7 @@ body {
     color: royalblue;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: white; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -133,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/medical-device-human.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
