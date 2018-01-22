@@ -3,92 +3,87 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/application.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Quicksand">
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     
-    <link rel="icon" href="images/Logos/logo.png">
+    <link rel="icon" href="assets/img/Logo.png">
 
     <title>Nova Approval</title>
   </head>
 
   <body>
-    <nav class="navbar">
-        <a class="navbar-brand" href="home.html">
-            <img src="images/Logos/logo.png" height="30" class="d-inline-block align-top" alt="Icon">
-            Nova Approval
+    <nav class="navbar navbar-top text-uppercase">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/Logo.png" height="50" class="d-inline-block align-top" alt="Nova Approval">
         </a>
         <div class="navbar-text navbar-right">
-            <a href="#" class="btn btn-outline-primary" role="button">Our Vision</a>
-            <a href="#" class="btn btn-outline-primary" role="button">Team</a>
-            <a href="http://demo.nova-approval.com" class="btn btn-outline-primary" role="button">Launch Demo</a>
+            <a href="#" class="btn" role="button">Vision</a>
+            <a href="company.html" class="btn" role="button">Company</a>
+            <a href="http://demo.nova-approval.com" class="btn" id="btn-demo" role="button">Launch Demo</a>
         </div>
     </nav>
 
     <div class="jumbotron" id="welcome">
-        <h1>Your Digital FDA Consultant</h1>
-        <h3>Get Approvals Faster, Safer and Cheaper</h3>
-        <a class="btn btn-primary text-uppercase" href="http://demo.nova-approval.com">Get Started</a>
+        <div>
+            <h1 id="welcome-header">Your Digital FDA Consultant</h1>
+            <h3 id="welcome-header-2"> Get Approvals Faster, Safer and Cheaper</h3>
+        </div>
+        <a class="btn text-uppercase btn-welcome" href="http://demo.nova-approval.com">Get Started</a>
     </div>
 
-    <div class="container-fluid">
-        <div class="row text-uppercase">
-            <h2>Say Hello to Lightning-Fast FDA submission Approvals</h2>
+    <div class="container body-sect">
+            <h2>Say Hello to Lightning-Fast<br><b>FDA Submission Approvals</b></h2>
+            <p>Reach customers faster by securing pre-marketing approvals intuitively and reliably.<br>We'll guide you through the entire submission process, using artificial intelligence to<br>convert decades of FDA submission history into a guide for your company's success.</p>
+    </div>
+
+    <!-- 
+        <div class="container">
+                <img src="assets/img/SE-form.png" height="400" alt="Form.png" class="pull-left">
+                <p>Hello</p>
         </div>
+    -->
+
+    <div class="container body-sect">
 
         <div class="row">
-            <p>Reach customers faster by securing pre-marketing approvals intuitively and reliably. We'll guide you through the entire submission process, using artificial intelligence to convert decades of FDA submission history into a guide for your company's success.</p>
+            <div class="col-sm">
+                <h2 style="text-align: center"><b>What We'll Do For You</b></h2>
+            </div>
         </div>
 
-        <div class="row">
-            <h3>What We'll Do For You</h3>
-        </div>
-
-        <div class="row">
-            <div class="col-sm" id="site-descrip">
+        <div class="row" style="text-align: center">
+            <div class="col-sm sub-head">
                 <h2>Find Your Predicate</h2>
+            </div>
+            <div class="col-sm sub-head">
+                <h2>Auto-populate Submission Forms</h2>
+            </div>
+            <div class="col-sm sub-head">
+                <h2>Predict Your Exemptions</h2>
+            </div>
+        </div>
+
+        <div class="row" style="text-align: center">
+            <div class="col-sm">
                 <p>Give us a few details about your product, and we will help you determine its predicate along with our estimates of approval time and device classification – all in a downloadable, presentable format. Free of charge, no strings attached.</p>
             </div>
-            <div class="col-sm" id="site-descrip">
-                <h2>Auto-populate Submission Forms</h2>
+            <div class="col-sm">
                 <p>We take advantage of decades of documented FDA history to quickly and accurately complete pre-submission and pre-market approval forms using artificial intelligence. Submit confidently and error-free.</p>
             </div>
-            <div class="col-sm" id="site-descrip">
-                <h2>Predict Your Exemptions</h2>
+            <div class="col-sm">
                 <p>We can save you valuable turnaround time and money by using intelligent machine learning to predict if your device qualifies for 510(k), investigational device, or any other exemption.</p>
             </div>
         </div>
-
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm" style="text-align: center">
-                <h2>Team</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm" id="team-descrip">
-                <h2>Kendrick Shen</h2>
-                <div style="padding: 10px 0 20px 0">
-                    <img src="img/team/kendrick-shen.jpg" alt="Kendrick Shen" height="150em" class="rounded-circle">
-                </div>
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-secondary"><a id="social" href="https://www.linkedin.com/in/kendrickshen/">LinkedIn</a></button>
-                    <button type="button" class="btn btn-secondary"><a id="social" href="https://www.facebook.com/kendrick.shen.10">Facebook</a></button>
-                </div>
-            </div>
-            <div class="col-sm" id="team-descrip">
-                <h2>Ashwin Ramaswami</h2>
-                <div style="padding: 10px 0 20px 0">
-                    <img src="img/team/ashwin-ramaswami.jpg" alt="Ozioma-Jesus Anyanwu" height="150em" class="rounded-circle">
-                </div>
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-secondary"><a id="social" href="#">LinkedIn</a></button>
-                    <button type="button" class="btn btn-secondary"><a id="social" href="https://www.facebook.com/oziomajesus.anyanwu">Facebook</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <nav class="navbar navbar-bottom text-uppercase">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/Logo.png" height="50" class="d-inline-block align-top" alt="Nova Approval">
+        </a>
+        <p>
+            
+        </p>
+    </nav>
 
   </body>
 </html>
