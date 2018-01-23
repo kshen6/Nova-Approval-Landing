@@ -1,12 +1,16 @@
 /* SCSS */
 /* type not anymore! sass --watch assets/stylesheets/application.scss:assets/stylesheets/application.css to align .scss with .css */
-@import "node_modules/bootstrap/scss/bootstrap";
-
 $website-font: Lato;
 $website-color-blue: rgb(105, 178, 221);
 $website-color-grey: rgb(235, 235, 235);
 $linkedin-blue: rgb(0, 119, 181);
 $blue: rgb(100, 123, 244);
+
+$theme-colors: (
+    "primary": #000000
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
 
 body {
     font-family: $website-font;
