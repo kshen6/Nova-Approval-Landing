@@ -61,5 +61,7 @@ body {
     color: #ebebeb; }
   .body-sect #social:hover {
     text-decoration: none; }
+  .body-sect .navbar-bottom p {
+    color: #69b2dd; }
 
 /*# sourceMappingURL=application.css.map */
