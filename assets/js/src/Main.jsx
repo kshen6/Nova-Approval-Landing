@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {
     Route,
     NavLink,
-    HashRouter
+    HashRouter,
 } from "react-router-dom";
 import Home from "./Home.jsx";
 import Vision from "./Vision.jsx";
@@ -16,7 +16,7 @@ class Main extends Component {
 
                     <nav className="navbar navbar-top text-uppercase">
                         <a className="navbar-brand" href="index.html">
-                            <img src="../../img/Logo.png" height="50" className="d-inline-block align-top" alt="Nova Approval" />
+                            <img src="./assets/img/Logo.png" height="50" className="d-inline-block align-top" alt="Nova Approval" />
                         </a>
                         <div className="navbar-text navbar-right">
                             <NavLink exact to="/" className="btn" role="button">Home</NavLink>
@@ -34,7 +34,7 @@ class Main extends Component {
 
                     <nav className="navbar navbar-bottom">
                         <a className="navbar-brand" href="index.html">
-                            <img src="../../img/Logo.png" height="50" className="d-inline-block align-top" alt="Nova Approval" />
+                            <img src="./assets/img/Logo.png" height="50" className="d-inline-block align-top" alt="Nova Approval" />
                         </a>
                         <p>
                             Address<br />

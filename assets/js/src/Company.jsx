@@ -6,7 +6,7 @@ class Company extends Component {
             <div>
                 <div className="container body-sect">
                     <div className="row">
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2><b>Company</b></h2>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ class Company extends Component {
                             </p>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Andy Wardle, MD</h2>
                             <div className="member-img">
                                 <img src="assets/img/andy-wardle.jpg" alt="Andy Wardle" height="150em" className="rounded-circle"/>
@@ -42,7 +42,7 @@ class Company extends Component {
                             </p>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Eric Loreaux</h2>
                             <div className="member-img">
                                 <img src="assets/img/eric-loreaux.jpg" alt="Eric Loreaux" height="150em" className="rounded-circle"/>
@@ -52,7 +52,7 @@ class Company extends Component {
                             </p>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Charlie Reis</h2>
                             <div className="member-img">
                                 <img src="assets/img/charlie-reis.jpg" alt="Charlie Reis" height="150em" className="rounded-circle"/>
@@ -65,25 +65,25 @@ class Company extends Component {
                     </div>
 
                     <div className="row social-row">
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/michelle-wu-gsb/">LinkedIn</a></button>
                             </div>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/andrew-wardle-6a108b68/">LinkedIn</a></button>
                             </div>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/eric-loreaux-011672b2/">LinkedIn</a></button>
                             </div>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/charlesrreis/">LinkedIn</a></button>
                             </div>
@@ -91,7 +91,7 @@ class Company extends Component {
                     </div>
 
                     <div className="row member-row">
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Abhiram Rao</h2>
                             <div className="member-img">
                                 <img src="assets/img/abhiram-rao.jpg" alt="Abhiram Rao" height="150em" className="rounded-circle"/>
@@ -101,7 +101,7 @@ class Company extends Component {
                             </p>
                         </div>
                 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Kendrick Shen</h2>
                             <div className="member-img">
                                 <img src="assets/img/kendrick-shen.jpg" alt="Kendrick Shen" height="150em" className="rounded-circle"/>
@@ -111,7 +111,7 @@ class Company extends Component {
                             </p>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <h2>Ashwin Ramaswami</h2>
                             <div className="member-img">
                                 <img src="assets/img/ashwin-ramaswami.jpg" alt="Ashwin Ramaswami" height="150em" className="rounded-circle"/>
@@ -124,19 +124,19 @@ class Company extends Component {
                     </div>
 
                     <div className="row social-row">
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/raoabhiram/">LinkedIn</a></button>
                             </div>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/kendrickshen/">LinkedIn</a></button>
                             </div>
                         </div>
 
-                        <div className="col-sm" style="text-align: center">
+                        <div className="col-sm text-center">
                             <div className="btn-group" role="group">
                                 <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/ashwin-r/">LinkedIn</a></button>
                             </div>
