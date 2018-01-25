@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-top {
-    background-color: $website-color-grey;
+    background-color: white;
     padding: 10px 25px;
 
     .btn {
@@ -109,6 +109,7 @@ body {
     }
 
     .navbar-bottom {
+        background-color: white;
         p {
             color: $website-color-blue;
         }
