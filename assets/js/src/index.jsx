@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from "./pages/Home.jsx";
+import Main from "./Main";
 import "../../stylesheets/application.scss";
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<div>
+    <Main />
+</div>, document.getElementById('root'));
