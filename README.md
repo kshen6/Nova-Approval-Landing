@@ -1,3 +1,7 @@
-nova-approval.com
+Single Page Application Landing page for Nova Approval
+http://nova-approval.com
 
-Landing page for Nova Approval
+Link to product demo:
+http://demo.nova-approval.com
+
+Created by Kendrick Shen and Ashwin Ramaswami
