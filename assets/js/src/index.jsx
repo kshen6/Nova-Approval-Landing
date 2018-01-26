@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from "./Main";
-import "../../stylesheets/application.scss";
+
+import "./Main.scss";
+import "./Home.scss";
+import "./Vision.scss";
+import "./Company.scss";
+
 ReactDOM.render(<div>
     <Main />
 </div>, document.getElementById('root'));
