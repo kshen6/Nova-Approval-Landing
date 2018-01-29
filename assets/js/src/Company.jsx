@@ -1,6 +1,18 @@
 import React, { Component } from "react";
+import fire from "./fire.js";
 
 class Company extends Component {
+    submitForm(e){
+        e.preventDefault();
+        //send message to Firebase
+        fire.database().ref('contacts').push({ 
+            email: this.email.value,
+            message: this.message.value
+        });
+        this.email.value = '';
+        this.message.value = '';
+    }
+
     render () {
         return (
             <div>
@@ -119,6 +131,28 @@ class Company extends Component {
                     </div>
 
                 </div>
+
+                <form className="js-form" onSubmit={this.submitForm.bind(this)}>
+                    <div className="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" ref={ el => this.email = el} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                        {/* <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small> */}
+                    </div>
+                    {/* <div className="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+                    </div> */}
+                    <div className="form-group">
+                        <label for="exampleMessage">Message</label>
+                        <input type="text" ref={ el => this.message = el} id="exampleMessage" className="form-control"/>
+                    </div>
+                    {/* <div className="form-check">
+                        <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+                        <label className="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> */}
+                    <button type="submit" id="form-submit" className="btn btn-primary">Submit</button>
+                </form>
+
             </div>
         );
     }
