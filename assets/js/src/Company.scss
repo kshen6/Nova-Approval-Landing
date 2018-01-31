@@ -1,5 +1,6 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 $website-font: Lato;
 $website-color-blue: rgb(105, 178, 221);
@@ -22,17 +23,39 @@ $linkedin-blue: rgb(0, 119, 181);
             text-align: center;
         }
 
-        .btn {
-            background-color: $linkedin-blue;
+        .fa {
+            border-radius: 5px;
+            margin: 0 3px;
+    
+            :hover {
+                opacity: 0.7;
+            }
+        }
+    
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
         }
 
-        #social {
-            color: $website-color-grey;
-            
-            :hover {
-                text-decoration: none;
-            }
+        .fa-envelope-o {
+            border: solid 1px $website-color-blue;
         }
     }
 }
 
+.js-form {
+    width: 50%;
+    margin: 1em;
+
+    button {
+        background-color: inherit;
+        color: $website-color-blue;
+        border: solid 1px $website-color-blue;
+        margin: 1em;
+
+        :hover {
+            background-color: $website-color-blue;
+            color: white;
+        }
+    }
+}
