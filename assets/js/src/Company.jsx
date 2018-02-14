@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import fire from "./fire.js";
 
+import "./Company.scss";
+
 class Company extends Component {
     submitForm(e){
         e.preventDefault();
@@ -11,6 +13,7 @@ class Company extends Component {
         });
         this.email.value = '';
         this.message.value = '';
+        document.getElementById("thankyou-note").innerHTML = "Thank you for contacting us. We'll reply shortly.";
     }
 
     render () {
@@ -43,7 +46,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/michelle-wu-gsb/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:mwu@nova-approval.com"></a>
                             </div>
                         </div>
 
@@ -58,7 +61,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/andrew-wardle-6a108b68/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:awardle@nova-approval.com"></a>
                             </div>
                         </div>
 
@@ -72,7 +75,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/eric-loreaux-011672b2/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:eloreaux@nova-approval.com"></a>
                             </div>
                         </div>
 
@@ -87,7 +90,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/charlesrreis/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:creis@nova-approval.com"></a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +106,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/raoabhiram/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:arao@nova-approval.com"></a>
                             </div>
                         </div>
                 
@@ -117,7 +120,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/kendrickshen/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:kshen@nova-approval.com"></a>
                             </div>
                         </div>
 
@@ -132,7 +135,7 @@ class Company extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/ashwin-r/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:aramaswami@nova-approval.com"></a>
                             </div>
                         </div>
                     </div>
@@ -140,24 +143,27 @@ class Company extends Component {
                 </div>
 
                 <form className="js-form" onSubmit={this.submitForm.bind(this)}>
+                    <h2>Contact Us</h2>
                     <div className="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" ref={ el => this.email = el} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                        {/* <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small> */}
+                        <label htmlFor="email1">Email address</label>
+                        <input type="email" ref={ el => this.email = el} className="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                        {<small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>}
                     </div>
                     {/* <div className="form-group">
-                        <label for="exampleInputPassword1">Password</label>
+                        <label htmlFor="exampleInputPassword1">Password</label>
                         <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
                     </div> */}
                     <div className="form-group">
-                        <label for="exampleMessage">Message</label>
-                        <input type="text" ref={ el => this.message = el} id="exampleMessage" className="form-control"/>
+                        <label htmlFor="message1">Message</label>
+                        <input type="text" ref={ el => this.message = el} className="form-control" id="message1" placeholder="Enter message"/>
+                        {<small id="emailHelp" className="form-text text-muted">We'll get back to you as soon as possible.</small>}
                     </div>
                     {/* <div className="form-check">
                         <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                         <label className="form-check-label" for="exampleCheck1">Check me out</label>
                     </div> */}
-                    <button type="submit" id="form-submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" id="form-submit" className="btn btn-primary">Send Message</button>
+                    <h4 id="thankyou-note"></h4>
                 </form>
 
             </div>

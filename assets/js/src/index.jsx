@@ -5,7 +5,6 @@ import Main from "./Main";
 import "./Main.scss";
 import "./Home.scss";
 import "./Vision.scss";
-import "./Company.scss";
 
 ReactDOM.render(<div>
     <Main />

@@ -9,7 +9,7 @@ class Home extends Component {
                         <h1 id="welcome-header">Your Digital FDA Consultant</h1>
                         <h3 id="welcome-header-2"> Get Approvals Faster, Safer and Cheaper</h3>
                     </div>
-                    <a className="btn" id="btn-welcome" href="http://demo.nova-approval.com">Get Started</a>
+                    <a className="btn" id="btn-welcome" href="http://demo.nova-approval.com">Explore Demo</a>
                 </div>
 
                 <div className="container" id="left-text">
@@ -22,6 +22,10 @@ class Home extends Component {
                         </p>
                 </div>
 
+                <div className="container" id="video">
+                    <iframe src="https://www.youtube.com/embed/SFCC9wNRTNY" frameBorder="0"></iframe>
+                </div>
+
                 <div className="container" id="left-text">
                     <div className="row">
                         <div className="col-sm-4">
@@ -31,7 +35,7 @@ class Home extends Component {
                             <h2><b>We Stand For Your Success</b></h2>
                             <p>
                                 We will help you to increase regulatory success using machine learning to 
-                                automate at least 20% of your labor-intensive submission tasks. Using our
+                                automate at least 20% of your labor-intensive submission tasks.* Using our
                                 smart and lean approach, we will ensure you minimize your share of the $4.6 
                                 billion spent annually on traditional regulatory consultants.<br /><br />
                                 The average FDA submission can take anywhere from 6 months to 3 years to obtain 

@@ -4,14 +4,15 @@ import {
     NavLink,
     HashRouter,
 } from "react-router-dom";
+
 import Home from "./Home.jsx";
 import Vision from "./Vision.jsx";
 import Company from "./Company.jsx";
+import Dtree from "./Dtree.jsx";
 
 import "./Main.scss";
 import "./Home.scss";
 import "./Vision.scss";
-import "./Company.scss";
 
 class Main extends Component {
     render () {
@@ -34,6 +35,7 @@ class Main extends Component {
                         <Route exact path="/" component={Home}/>
                         <Route path="/Vision" component={Vision}/>
                         <Route path="/Company" component={Company}/>
+                        <Route path="/Dtree" component={Dtree}/>
                     </div>
 
                     <nav className="navbar" id="navbar-bottom">

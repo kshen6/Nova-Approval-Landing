@@ -7,6 +7,8 @@ class Vision extends Component {
                 <div className="container body-sect">
                     <h2>VISION</h2>
                     <p>
+                    At Nova Approval, we are developing a 
+                    
                     We are a team of diverse and determined individuals, all sharing a vision for success. 
                     We believe that our machine learning and artificial intelligence technology has the potential to 
                     disrupt the FDA regulatory submissions process and to dramatically improve the time it takes pharmaceutical 

@@ -45,13 +45,13 @@ $linkedin-blue: rgb(0, 119, 181);
 
 .js-form {
     width: 50%;
-    margin: 1em;
+    margin: 2em;
 
     button {
         background-color: inherit;
         color: $website-color-blue;
         border: solid 1px $website-color-blue;
-        margin: 1em;
+        margin-bottom: 1em;
 
         :hover {
             background-color: $website-color-blue;
