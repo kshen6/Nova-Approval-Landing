@@ -34,6 +34,10 @@ class Home extends Component {
                         <div className="col-sm-8">
                             <h2><b>We Stand For Your Success</b></h2>
                             <p>
+                                At Nova Approval, we are developing a powerful, free data analytics engine for your unlimited use
+                                as you move prepare you submission documents. With our intuitive and interactive visualizations, 
+                                we will help you find your predicate device quickly and accurately. <br />
+                                
                                 We will help you to increase regulatory success using machine learning to 
                                 automate at least 20% of your labor-intensive submission tasks.* Using our
                                 smart and lean approach, we will ensure you minimize your share of the $4.6 

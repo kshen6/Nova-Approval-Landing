@@ -7,7 +7,11 @@ class Vision extends Component {
                 <div className="container body-sect">
                     <h2>VISION</h2>
                     <p>
-                    At Nova Approval, we are developing a 
+                    At Nova Approval, we are developing a powerful, free data analytics engine for your unlimited use
+                    as you move prepare you submission documents. With our intuitive and interactive visualizations, 
+                    we will help you find your predicate device quickly and accurately.
+
+                    <br />
                     
                     We are a team of diverse and determined individuals, all sharing a vision for success. 
                     We believe that our machine learning and artificial intelligence technology has the potential to 
