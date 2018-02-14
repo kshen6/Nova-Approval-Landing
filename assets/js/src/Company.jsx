@@ -42,7 +42,8 @@ class Company extends Component {
                                 Prior: Longitude Capital, Wuxi Ventures, Novartis
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/michelle-wu-gsb/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/michelle-wu-gsb/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
 
@@ -56,7 +57,8 @@ class Company extends Component {
                                 Prior: Boston Consulting Group
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/andrew-wardle-6a108b68/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/andrew-wardle-6a108b68/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
 
@@ -69,7 +71,8 @@ class Company extends Component {
                                 Stanford MS in Bioengineering Candidate '19
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/eric-loreaux-011672b2/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/eric-loreaux-011672b2/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
 
@@ -83,7 +86,8 @@ class Company extends Component {
                                 Prior: Abbott Regulatory Affairs
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/charlesrreis/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/charlesrreis/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +102,8 @@ class Company extends Component {
                                 Stanford PhD in Bioengineering '20
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/raoabhiram/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/raoabhiram/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
                 
@@ -111,7 +116,8 @@ class Company extends Component {
                                 Stanford BS in Symbolic Systems Candidate '21
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/kendrickshen/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/kendrickshen/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
 
@@ -125,7 +131,8 @@ class Company extends Component {
                                 Microsoft Student Partner
                             </p>
                             <div className="btn-group" role="group">
-                                <button type="button" className="btn"><a id="social" href="https://www.linkedin.com/in/ashwin-r/"><b>in</b></a></button>
+                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/ashwin-r/"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href=""></a>
                             </div>
                         </div>
                     </div>
