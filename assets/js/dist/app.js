@@ -263,13 +263,13 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "h3",
                         { id: "welcome-header-2" },
-                        " Get Approvals Faster, Safer and Cheaper"
+                        "Get the Information You Need Faster, Safer and Cheaper"
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "a",
-                    { className: "btn", id: "btn-welcome", href: "http://demo.nova-approval.com" },
-                    "Explore Demo"
+                    { className: "btn", id: "btn-welcome", href: "#" },
+                    "Launching Soon"
                 )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -502,7 +502,7 @@ class Company extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 "b",
                                 null,
-                                "Company"
+                                "Team"
                             )
                         )
                     )
@@ -552,33 +552,6 @@ class Company extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "h2",
                             null,
-                            "Andy Wardle, MD"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "assets/img/andy-wardle.jpg", alt: "Andy Wardle", height: "150em", className: "rounded-circle" })
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "p",
-                            null,
-                            "Stanford MBA Candidate '19",
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                            "Prior: Boston Consulting Group"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            { className: "btn-group", role: "group" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", "aria-hidden": "true", href: "https://www.linkedin.com/in/andrew-wardle-6a108b68/" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:awardle@nova-approval.com" })
-                        )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { className: "col-sm" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "h2",
-                            null,
                             "Eric Loreaux"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -597,63 +570,11 @@ class Company extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", "aria-hidden": "true", href: "https://www.linkedin.com/in/eric-loreaux-011672b2/" }),
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:eloreaux@nova-approval.com" })
                         )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { className: "col-sm" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "h2",
-                            null,
-                            "Charlie Reis"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "assets/img/charlie-reis.jpg", alt: "Charlie Reis", height: "150em", className: "rounded-circle" })
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "p",
-                            null,
-                            "Stanford MBA Candidate '19",
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                            "Prior: Abbott Regulatory Affairs"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            { className: "btn-group", role: "group" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", "aria-hidden": "true", href: "https://www.linkedin.com/in/charlesrreis/" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:creis@nova-approval.com" })
-                        )
                     )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "div",
                     { className: "row", id: "member-row" },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        "div",
-                        { className: "col-sm" },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "h2",
-                            null,
-                            "Abhiram Rao"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            null,
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "assets/img/abhiram-rao.jpg", alt: "Abhiram Rao", height: "150em", className: "rounded-circle" })
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "p",
-                            null,
-                            "Stanford PhD in Bioengineering '20"
-                        ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            "div",
-                            { className: "btn-group", role: "group" },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", "aria-hidden": "true", href: "https://www.linkedin.com/in/raoabhiram/" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:arao@nova-approval.com" })
-                        )
-                    ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "div",
                         { className: "col-sm" },
