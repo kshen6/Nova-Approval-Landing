@@ -13,13 +13,13 @@ class Home extends Component {
                 </div>
 
                 <div className="container" id="left-text">
-                        <h2>Say Hello to Lightning-Fast<br /><b>FDA Submission Approvals</b></h2>
-                        <p>
-                            Reach customers faster by securing pre-marketing approvals intuitively and reliably.
-                            <br />We'll guide you through the entire submission process, using advanced data
-                            science and machine learning to<br />convert decades of FDA submission history 
-                            into a guide for your company's success.
-                        </p>
+                    <h2>Say Hello to Lightning-Fast<br /><b>FDA Submission Approvals</b></h2>
+                    <p>
+                        Reach customers faster by securing pre-marketing approvals intuitively and reliably.
+                        <br />We'll guide you through the entire submission process, using advanced data
+                        science and machine learning to<br />convert decades of FDA submission history 
+                        into a guide for your company's success.
+                    </p>
                 </div>
 
                 <div className="container" id="video">

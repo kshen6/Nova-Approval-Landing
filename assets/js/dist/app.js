@@ -137,7 +137,7 @@ __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODU
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(287);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Home_jsx__ = __webpack_require__(315);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Vision_jsx__ = __webpack_require__(316);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Company_jsx__ = __webpack_require__(317);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Team_jsx__ = __webpack_require__(317);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Dtree_jsx__ = __webpack_require__(404);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Main_scss__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Main_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__Main_scss__);
@@ -183,8 +183,8 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
-                            { to: "/Company", className: "btn", role: "button" },
-                            "Company"
+                            { to: "/Team", className: "btn", role: "button" },
+                            "Team"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "a",
@@ -198,7 +198,7 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                     { className: "content" },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: "/", component: __WEBPACK_IMPORTED_MODULE_2__Home_jsx__["a" /* default */] }),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/Vision", component: __WEBPACK_IMPORTED_MODULE_3__Vision_jsx__["a" /* default */] }),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/Company", component: __WEBPACK_IMPORTED_MODULE_4__Company_jsx__["a" /* default */] }),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/Team", component: __WEBPACK_IMPORTED_MODULE_4__Team_jsx__["a" /* default */] }),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/Dtree", component: __WEBPACK_IMPORTED_MODULE_5__Dtree_jsx__["a" /* default */] })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -213,7 +213,7 @@ class Main extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                         "div",
                         null,
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-twitter", href: "https://twitter.com/nova_approval" }),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", href: "https://www.linkedin.com/company/nova-approval/" })
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", href: "https://www.linkedin.com/Team/nova-approval/" })
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         "p",
@@ -463,14 +463,14 @@ class Vision extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fire_js__ = __webpack_require__(318);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Company_scss__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Company_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Company_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Team_scss__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Team_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__Team_scss__);
 
 
 
 
 
-class Company extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+class Team extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
     submitForm(e) {
         e.preventDefault();
         //send message to Firebase
@@ -678,7 +678,7 @@ class Company extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
     }
 }
 
-/* harmony default export */ __webpack_exports__["a"] = (Company);
+/* harmony default export */ __webpack_exports__["a"] = (Team);
 
 /***/ }),
 
@@ -724,8 +724,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./Company.scss", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./Company.scss");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./Team.scss", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./Team.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});

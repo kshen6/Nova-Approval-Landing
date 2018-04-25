@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import fire from "./fire.js";
 
-import "./Company.scss";
+import "./Team.scss";
 
-class Company extends Component {
+class Team extends Component {
     submitForm(e){
         e.preventDefault();
         //send message to Firebase
@@ -129,4 +129,4 @@ class Company extends Component {
     }
 }
 
-export default Company;
+export default Team;

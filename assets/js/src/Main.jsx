@@ -7,7 +7,7 @@ import {
 
 import Home from "./Home.jsx";
 import Vision from "./Vision.jsx";
-import Company from "./Company.jsx";
+import Team from "./Team.jsx";
 import Dtree from "./Dtree.jsx";
 
 import "./Main.scss";
@@ -26,7 +26,7 @@ class Main extends Component {
                         </NavLink>
                         <div className="navbar-text navbar-right">
                             <NavLink to="/Vision" className="btn" role="button">Vision</NavLink>
-                            <NavLink to="/Company" className="btn" role="button">Company</NavLink>
+                            <NavLink to="/Team" className="btn" role="button">Team</NavLink>
                             <a href="http://demo.nova-approval.com" className="btn" id="btn-demo" role="button">Demo</a>
                         </div>
                     </nav>
@@ -34,7 +34,7 @@ class Main extends Component {
                     <div className="content">
                         <Route exact path="/" component={Home}/>
                         <Route path="/Vision" component={Vision}/>
-                        <Route path="/Company" component={Company}/>
+                        <Route path="/Team" component={Team}/>
                         <Route path="/Dtree" component={Dtree}/>
                     </div>
 
@@ -44,7 +44,7 @@ class Main extends Component {
                         </NavLink>
                         <div>
                             <a className="btn fa fa-twitter" href="https://twitter.com/nova_approval"></a>
-                            <a className="btn fa fa-linkedin" href="https://www.linkedin.com/company/nova-approval/"></a>
+                            <a className="btn fa fa-linkedin" href="https://www.linkedin.com/Team/nova-approval/"></a>
                         </div>
                         <p className="navbar-text">
                             Address<br />
