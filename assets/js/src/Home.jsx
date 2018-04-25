@@ -7,9 +7,9 @@ class Home extends Component {
                 <div className="jumbotron" id="welcome">
                     <div>
                         <h1 id="welcome-header">Your Digital FDA Consultant</h1>
-                        <h3 id="welcome-header-2"> Get Approvals Faster, Safer and Cheaper</h3>
+                        <h3 id="welcome-header-2">Get the Information You Need Faster, Safer and Cheaper</h3>
                     </div>
-                    <a className="btn" id="btn-welcome" href="http://demo.nova-approval.com">Explore Demo</a>
+                    <a className="btn" id="btn-welcome" href="#">Launching Soon</a>
                 </div>
 
                 <div className="container" id="left-text">

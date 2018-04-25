@@ -22,15 +22,15 @@ class Company extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
-                            <h2><b>Company</b></h2>
+                            <h2><b>Team</b></h2>
                         </div>
                     </div>
 
                     <div className="row">
                         <p>Our professional staff includes three Stanford MBA candidates with years of regulatory, 
-                            pharmaceutical and healthcare experience, and a Stanford MS in Bioengineering candidate.
-                            We have unique expertise in compliance, machine learning and FDA regulatory affairs,
-                            and we are here to put the cutting edge of data analytics into your hands.</p>
+                        pharmaceutical and healthcare experience, and a Stanford MS in Bioengineering candidate.
+                        We have unique expertise in compliance, machine learning and FDA regulatory affairs,
+                        and we are here to put the cutting edge of data analytics into your hands.</p>
                     </div>
 
                     <div className="row" id="member-row">
@@ -51,21 +51,6 @@ class Company extends Component {
                         </div>
 
                         <div className="col-sm">
-                            <h2>Andy Wardle, MD</h2>
-                            <div>
-                                <img src="assets/img/andy-wardle.jpg" alt="Andy Wardle" height="150em" className="rounded-circle"/>
-                            </div>
-                            <p>
-                                Stanford MBA Candidate '19<br/>
-                                Prior: Boston Consulting Group
-                            </p>
-                            <div className="btn-group" role="group">
-                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/andrew-wardle-6a108b68/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:awardle@nova-approval.com"></a>
-                            </div>
-                        </div>
-
-                        <div className="col-sm">
                             <h2>Eric Loreaux</h2>
                             <div>
                                 <img src="assets/img/eric-loreaux.jpg" alt="Eric Loreaux" height="150em" className="rounded-circle"/>
@@ -79,36 +64,9 @@ class Company extends Component {
                             </div>
                         </div>
 
-                        <div className="col-sm">
-                            <h2>Charlie Reis</h2>
-                            <div>
-                                <img src="assets/img/charlie-reis.jpg" alt="Charlie Reis" height="150em" className="rounded-circle"/>
-                            </div>
-                            <p>
-                                Stanford MBA Candidate '19<br/>
-                                Prior: Abbott Regulatory Affairs
-                            </p>
-                            <div className="btn-group" role="group">
-                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/charlesrreis/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:creis@nova-approval.com"></a>
-                            </div>
-                        </div>
                     </div>
 
                     <div className="row" id="member-row">
-                        <div className="col-sm">
-                            <h2>Abhiram Rao</h2>
-                            <div>
-                                <img src="assets/img/abhiram-rao.jpg" alt="Abhiram Rao" height="150em" className="rounded-circle"/>
-                            </div>
-                            <p>
-                                Stanford PhD in Bioengineering '20
-                            </p>
-                            <div className="btn-group" role="group">
-                                <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/raoabhiram/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:arao@nova-approval.com"></a>
-                            </div>
-                        </div>
                 
                         <div className="col-sm">
                             <h2>Kendrick Shen</h2>
