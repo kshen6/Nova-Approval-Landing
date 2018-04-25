@@ -441,11 +441,11 @@ class Vision extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     "p",
                     null,
-                    "At Nova Approval, we are developing a powerful, free data analytics engine for your unlimited use as you move prepare you submission documents. With our intuitive and interactive visualizations, we will help you find your predicate device quickly and accurately.",
+                    "At Nova Approval, we are developing a powerful, interactive data analytics engine for your custonized use, whether you are preparing your submission documents or planning your development strategy. With our intuitive and interactive visualizations, we will help you find your predicate device quickly and accurately.",
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "We are a team of diverse and determined individuals, all sharing a vision for success. We believe that our machine learning and artificial intelligence technology has the potential to disrupt the FDA regulatory submissions process and to dramatically improve the time it takes pharmaceutical and medical device companies to bring their products to the market to reach more patients in need.",
+                    "We are a team of diverse and determined individuals, all sharing a vision for success. We believe that our data science and artificial intelligence technology has the potential to disrupt the FDA regulatory submissions process and to dramatically improve the time it takes pharmaceutical and medical device companies to bring their products to the market to reach more patients in need.",
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                    "We are uniquely positioned as a global leader in medical device FDA approval consulting. At Nova Approval, we provide you with a global authoritative source for all regulatory content and product registration data. We link clinical outcomes with the final commercial forecast to help you manage your business from end to end."
+                    "We are uniquely positioned as a global leader in medical device FDA approval knowledge. At Nova Approval, we provide you with an authoritative source for powerful regulatory content and product registration data. We link clinical outcomes with the final commercial forecast to help you manage your business from end to end."
                 )
             )
         );
