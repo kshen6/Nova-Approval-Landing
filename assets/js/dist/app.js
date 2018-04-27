@@ -537,7 +537,7 @@ class Team extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                             null,
                             "Stanford MBA Candidate '18",
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
-                            "Prior: Longitude Capital, Wuxi Ventures, Novartis"
+                            "Prior: Novartis, Longitude Capital, Wuxi Ventures"
                         ),
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                             "div",

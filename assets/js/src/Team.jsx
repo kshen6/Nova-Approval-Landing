@@ -42,7 +42,7 @@ class Team extends Component {
                             </div>
                             <p>
                                 Stanford MBA Candidate '18<br/>
-                                Prior: Longitude Capital, Wuxi Ventures, Novartis
+                                Prior: Novartis, Longitude Capital, Wuxi Ventures
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/michelle-wu-gsb/"></a>
