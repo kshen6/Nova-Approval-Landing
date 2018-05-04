@@ -46,7 +46,7 @@ class Team extends Component {
                             </p>
                             <div className="btn-group" role="group">
                                 <a className="btn fa fa-linkedin" aria-hidden="true" href="https://www.linkedin.com/in/michelle-wu-gsb/"></a>
-                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:mwu@nova-approval.com"></a>
+                                <a className="btn fa fa-envelope-o" aria-hidden="true" href="mailto:danw2@nova-approval.com"></a>
                             </div>
                         </div>
 
