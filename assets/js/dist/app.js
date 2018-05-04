@@ -543,7 +543,7 @@ class Team extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                             "div",
                             { className: "btn-group", role: "group" },
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-linkedin", "aria-hidden": "true", href: "https://www.linkedin.com/in/michelle-wu-gsb/" }),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:mwu@nova-approval.com" })
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", { className: "btn fa fa-envelope-o", "aria-hidden": "true", href: "mailto:danw2@nova-approval.com" })
                         )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
