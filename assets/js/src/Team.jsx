@@ -113,7 +113,7 @@ class Team extends Component {
                     </div> */}
                     <div className="form-group">
                         <label htmlFor="message1">Message</label>
-                        <input type="text" ref={ el => this.message = el} className="form-control" id="message1" placeholder="Enter message"/>
+                        <textarea type="text" rows="2" ref={ el => this.message = el} className="form-control" id="message1" placeholder="Enter message"/>
                         {<small id="emailHelp" className="form-text text-muted">We'll get back to you as soon as possible.</small>}
                     </div>
                     {/* <div className="form-check">

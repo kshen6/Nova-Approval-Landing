@@ -9,7 +9,7 @@ class Home extends Component {
                         <h1 id="welcome-header">Your Digital FDA Consultant</h1>
                         <h3 id="welcome-header-2">Get the Information You Need Faster, Safer and Cheaper</h3>
                     </div>
-                    <a className="btn" id="btn-welcome" href="#">Launching Soon</a>
+                    <a className="btn not-active" id="btn-welcome" href="#">Launching Soon</a>
                 </div>
 
                 <div className="container" id="left-text">
@@ -45,7 +45,7 @@ class Home extends Component {
                                 The average FDA submission can take anywhere from 6 months to 3 years to obtain 
                                 approval.
                             </p>
-                            <a className="btn" id="btn-welcome" href="http://demo.nova-approval.com">Get Started Today</a>
+                            {/* <a className="btn" id="btn-welcome" href="http://demo.nova-approval.com">Get Started Today</a> */}
                         </div>
                     </div>
                 </div>

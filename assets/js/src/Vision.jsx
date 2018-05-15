@@ -5,7 +5,7 @@ class Vision extends Component {
         return (
             <div>
                 <div className="container body-sect">
-                    <h2>VISION</h2>
+                    <h2>Vision</h2>
                     <p>
                     At Nova Approval, we are developing a powerful, interactive data analytics engine for your custonized use,
                     whether you are preparing your submission documents or planning your development strategy. With our intuitive and interactive visualizations, 

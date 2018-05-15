@@ -27,7 +27,7 @@ class Main extends Component {
                         <div className="navbar-text navbar-right">
                             <NavLink to="/Vision" className="btn" role="button">Vision</NavLink>
                             <NavLink to="/Team" className="btn" role="button">Team</NavLink>
-                            <a href="http://demo.nova-approval.com" className="btn" id="btn-demo" role="button">Demo</a>
+                            <a href="#" className="btn not-active" id="btn-demo" role="button">Launching Soon</a>
                         </div>
                     </nav>
 

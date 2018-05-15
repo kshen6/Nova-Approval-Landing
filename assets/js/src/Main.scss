@@ -1,10 +1,10 @@
 @import "node_modules/bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-$website-font: Lato;
+$website-font: 'Noto Sans';
 $website-color-blue: rgb(105, 178, 221);
-$website-color-grey: rgb(235, 235, 235);
+$website-color-grey: rgb(245, 245, 245);
 $linkedin-blue: rgb(0, 119, 181);
 
 body {
