@@ -1,0 +1,82 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$website-font: 'Noto Sans';
+$website-color-blue: rgb(105, 178, 221);
+$website-color-grey: rgb(245, 245, 245);
+$linkedin-blue: rgb(0, 119, 181);
+
+body {
+    background-color: white;
+    font-family: $website-font;
+}
+
+nav {
+    background-color: white;
+    padding: 20px 30px;
+    margin: 5px;
+    font-family: $website-font;
+}
+
+#navbar-top {
+
+    .btn {
+        margin: 0 10px;
+        font-size: 15px;
+        color: $website-color-blue;
+        border-radius: 0;
+    }
+
+    .btn:hover {
+        background-color: $website-color-blue;
+        color: white;
+        text-decoration: none;
+    }
+
+    .btn.active {
+        border: solid 1px $website-color-blue;
+    }
+}
+
+#navbar-bottom {
+    p {
+        color: $website-color-blue;
+        font-size: .8em;
+    }
+
+    .fa {
+        border-radius: 5px;
+        margin: 3px;
+
+        :hover {
+            opacity: 0.7;
+        }
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+}
+
+.content {
+    font-family: $website-font;
+    background-color: $website-color-grey;
+    
+    .container {
+        padding: 2.7rem 5rem;
+        font-size: 18px;
+
+        h2 {
+            padding: 15px 0 25px 0;
+            font-size: 1.3em;
+            text-align: center;
+        }
+    }
+}

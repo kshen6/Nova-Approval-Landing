@@ -1,0 +1,61 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$website-font: Lato;
+$website-color-blue: rgb(105, 178, 221);
+$website-color-grey: rgb(235, 235, 235);
+$linkedin-blue: rgb(0, 119, 181);
+
+#member-row {
+    font-size: .9em;
+    margin-top: 2rem;
+
+    .col-sm {
+        text-align: center;
+
+        div {
+            padding: 10px 0 20px 0;
+        }
+
+        p {
+            height: 4.3em;
+            text-align: center;
+        }
+
+        .fa {
+            border-radius: 5px;
+            margin: 0 3px;
+    
+            :hover {
+                opacity: 0.7;
+            }
+        }
+    
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-envelope-o {
+            border: solid 1px $website-color-blue;
+        }
+    }
+}
+
+.js-form {
+    width: 50%;
+    margin: 2em;
+
+    button {
+        background-color: inherit;
+        color: $website-color-blue;
+        border: solid 1px $website-color-blue;
+        margin-bottom: 1em;
+
+        :hover {
+            background-color: $website-color-blue;
+            color: white;
+        }
+    }
+}

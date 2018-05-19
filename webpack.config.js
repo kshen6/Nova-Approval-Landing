@@ -43,7 +43,7 @@ module.exports = {
         }, // to transform TSX into JS
         {
           test: /\.s?css$/,
-          use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+          use: [ 'file-loader', 'css-loader', 'sass-loader' ]
           /*use: ExtractTextPlugin.extract({
             use: [ 'style-loader', 'css-loader', 'sass-loader' ]
           })*/

@@ -1,0 +1,20 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+$website-font: Lato;
+$website-color-blue: rgb(105, 178, 221);
+$website-color-grey: rgb(235, 235, 235);
+$linkedin-blue: rgb(0, 119, 181);
+
+#tree-row {
+    text-align: center;
+    margin: 1em;
+
+    .col-sm {
+        border: solid 3px $website-color-blue;
+        border-radius: .5em;
+        margin: .5em;
+        font-size: 16px;
+        padding: 0;
+    }
+}
