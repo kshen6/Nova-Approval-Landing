@@ -1,7 +1,7 @@
-Single Page Application Landing page for Nova Approval
+Landing page for Nova Approval, a personalized FDA data engine
 http://nova-approval.com
 
 Link to product demo:
-http://demo.nova-approval.com
+http://search.nova-approval.com
 
 Created by Kendrick Shen and Ashwin Ramaswami
